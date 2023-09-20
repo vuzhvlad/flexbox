@@ -7,6 +7,8 @@
 body {
     font-family: 'Mooli', sans-serif;
     font-family: 'Raleway', sans-serif;
+    /* MATTHIJS: For this, you can also just do: */
+    font-family: 'Mooli', 'Raleway', sans-serif;
 }
 
 img {
@@ -21,32 +23,33 @@ img {
     font-size: 38px;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 200px;
-}
-
 header {
     height: 100px;
     background-color: #103FDA;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
+    position: sticky; /* MATTHIJS: if you want this to work, you need the below top: 0, which sets where it should stick */
+    /* top: 0; */
+    /* padding: 0 200px; MATTHIJS: I would put this here instead of on the children (.images, .logo), that way it doesn't matter what you put in the header, it has the correct margins */
+}
+
+.logo{
+    display: flex;
+    justify-content: center; /* MATTHIJS: does not do anything here */
+    align-items: center;
+    margin-left: 200px;
 }
 
 .images {
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-around; /* MATTHIJS: does not do anything here */
     margin-right: 200px;
 }
 
 .thuis {
-    padding-right: 5;
+    padding-right: 5; /* MATTHIJS: if you enter a measurement that is not 0, you need to specify the unit, so 5px, 5em, 5%, etc. */
     width: 35px;
     margin-left: 20px;
 }
@@ -56,6 +59,10 @@ header {
     width: 40px;
 }
 
+/**
+ * MATTHIJS: The below ul, li and such only works if all UL, elements need to have the same styling
+ * it is good practice in most cases to use classes to style elements, not the element type itself, for this reason
+ **/
 ul {
     display: flex;
     list-style-type: none;
@@ -137,7 +144,7 @@ li a:hover::after {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    flex-shrink: 2;
+    /* flex-shrink: 2;  MATTHIJS: does not do anything here */
 }
 
 .menu {
@@ -154,10 +161,8 @@ li a:hover::after {
 .png1 img {
     height: 399px;
     flex-grow: 1;
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
 }
-
-
 
 .png2 {
     display: flex;
@@ -204,6 +209,48 @@ li a:hover::after {
 .png3 img {
     height: 399px;
     flex-grow: 1;
+}
+
+
+.links-matthijs {
+  display: flex;
+  height: 400px;
+  flex-wrap: nowrap;
+}
+
+.links-matthijs * {
+  flex: 1;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.image-text {
+  position: absolute;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  padding: 1px 6px;
+}
+
+.background-green {
+  background-color: #5CD068;
+}
+
+.background-teal {
+  background-color: #5CDEF7;
+}
+
+.background-blue {
+  background-color: #103FDA;
 }
 
 .description {
