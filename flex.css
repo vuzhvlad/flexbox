@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 35px;
+}
+
+.logo h1 {
+    font-family: 'Mooli', sans-serif;
+    color: white;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    font-size: 38px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+header {
+    height: 100px;
+    background-color: #103FDA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+
+}
+
+.images {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+.thuis {
+    padding-right: 5;
+    width: 35px;
+    margin-left: 20px;
+}
+
+.uber {
+    padding-left: 5px;
+    width: 40px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    align-items: center;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color: white;
+    transition: .5s;
+
+}
+
+li a:hover::after {
+    width: 100%
+}
+
+.content {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right {
+    max-width: 800px;
+    height: auto;
+}
+
+.backdish {
+    width: 800px;
+}
+
+.content-left {
+    margin-top: 100px;
+}
+.content-left h2 {
+    color: #103FDA;
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    padding: 10px;
+    
+}
+
+.content-left h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 1px solid #103FDA;
+    background-color: #103FDA;
+    width: 232px;
+    padding-left: 5px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    height: 400px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.png1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+.menu {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    border: 1px solid #5CD068;
+    background-color: #5CD068;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+
+}
+
+.png1 img {
+    height: 399px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    
+}
+
+
+
+.png2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.takeaway {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    border: 1px solid #5CDEF7;
+    background-color: #5CDEF7;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+.png2 img {
+    height: 399px;
+    flex-grow: 1;
+    flex-shrink: 3;
+
+}
+
+.png3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.location {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    border: 1px solid #103FDA;
+    background-color: #103FDA;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.png3 img {
+    height: 399px;
+    flex-grow: 1;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: #5CD068;
+
+}
+
+.descriptiontext {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.textbelow {
+    color: white;
+    width: 900px;
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #464A47;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.foot {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+
+}
+
+.foot img {
+    width: 70px;  
+    height: auto; 
+    
+}
+img.git {
+    width: 117px;
+    padding-top: 2px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+    height: auto;
+    flex-shrink: 2;
+    color: white;
+    font-weight: bold;
+
+
+
+}
+
+.name {
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+
+
+
+
+
+
+
