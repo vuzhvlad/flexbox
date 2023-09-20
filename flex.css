@@ -27,8 +27,8 @@ img {
     align-items: center;
     margin-top: 20px;
     margin-left: 200px;
-
 }
+
 header {
     height: 100px;
     background-color: #103FDA;
@@ -36,7 +36,6 @@ header {
     justify-content: space-around;
     align-items: center;
     position: sticky;
-
 }
 
 .images {
@@ -45,6 +44,7 @@ header {
     justify-content: space-around;
     margin-right: 200px;
 }
+
 .thuis {
     padding-right: 5;
     width: 35px;
@@ -55,6 +55,7 @@ header {
     padding-left: 5px;
     width: 40px;
 }
+
 ul {
     display: flex;
     list-style-type: none;
@@ -79,7 +80,6 @@ li a::after {
     width: 0;
     background-color: white;
     transition: .5s;
-
 }
 
 li a:hover::after {
@@ -105,13 +105,13 @@ li a:hover::after {
 .content-left {
     margin-top: 100px;
 }
+
 .content-left h2 {
     color: #103FDA;
     font-size: 30px;
     letter-spacing: 3px;
     word-spacing: 7px;
     padding: 10px;
-    
 }
 
 .content-left h1 {
@@ -139,6 +139,7 @@ li a:hover::after {
     flex-grow: 1;
     flex-shrink: 2;
 }
+
 .menu {
     position: absolute;
     font-size: 35px;
@@ -148,15 +149,12 @@ li a:hover::after {
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
-    
-
 }
 
 .png1 img {
     height: 399px;
     flex-grow: 1;
     flex-shrink: 2;
-    
 }
 
 
@@ -177,23 +175,19 @@ li a:hover::after {
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
-
-
 }
 
 .png2 img {
     height: 399px;
     flex-grow: 1;
     flex-shrink: 3;
-
 }
 
-.png3 { 
+.png3 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-
 }
 
 .location {
@@ -205,7 +199,6 @@ li a:hover::after {
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
-
 }
 
 .png3 img {
@@ -221,7 +214,6 @@ li a:hover::after {
     width: 100%;
     height: 500px;
     background-color: #5CD068;
-
 }
 
 .descriptiontext {
@@ -246,21 +238,19 @@ footer {
     height: 200px;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .foot {
     display: flex;
     justify-content: flex-start;
     align-self: center;
-
 }
 
 .foot img {
-    width: 70px;  
-    height: auto; 
-    
+    width: 70px;
+    height: auto;
 }
+
 img.git {
     width: 117px;
     padding-top: 2px;
@@ -275,9 +265,6 @@ img.git {
     flex-shrink: 2;
     color: white;
     font-weight: bold;
-
-
-
 }
 
 .name {
